@@ -20,10 +20,10 @@ function animalswitcher(player) {
             player.lessrad = 0.7
 
             player.speeds = {
-                landspeed: 4.04,
-                oceanspeed: 4.04,
-                arcticspeed: 4.04,
-                lavaspeed: 4.04,
+                landspeed: 6.04,
+                oceanspeed: 6.04,
+                arcticspeed: 6.04,
+                lavaspeed: 6.04,
             }
             player.bar.maxbarnormalpercentage = 500
             player.bar.normalbarpercentage = 500
@@ -100,7 +100,7 @@ function animalswitcher(player) {
             player.tier = 15
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.nextxp = 30000000;
+            player.nextxp = 10000000;
 
             player.baserad = 40
             player.addrad = 0.5
@@ -159,11 +159,11 @@ function animalswitcher(player) {
 
             player.flags.push(26)
             player.speeds = {
-                landspeed: 4.20,
+                landspeed: 999.20,
                 oceanspeed: 2.4,
                 arcticspeed: 4.70,
                 lavaspeed: 3.25,
-                flyspeed: 10, // charge spped.
+                flyspeed: 1000, // charge spped.
 
 
             }
@@ -180,7 +180,7 @@ function animalswitcher(player) {
             player.tier = 15
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.nextxp = 1000000000;
+            player.nextxp = 10000000;
 
 
             player.baserad = 45
@@ -206,7 +206,7 @@ function animalswitcher(player) {
             player.tier = 15
             player.bar.normalbar = 0
             player.whichbiome = 1
-            player.nextxp = 30000000;
+            player.nextxp = 10000000;
 
 
             player.baserad = 40
@@ -228,7 +228,7 @@ function animalswitcher(player) {
             player.tier = 15
             player.bar.normalbar = 0
             player.whichbiome = 2
-            player.nextxp = 30000000;
+            player.nextxp = 10000000;
 
 
             player.baserad = 40
@@ -355,7 +355,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 3
             player.whichbiome = 0
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.flags.push(26)
             player.baserad = 40
@@ -384,7 +384,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 0
             player.whichbiome = 0
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.baserad = 60
             player.addrad = 0.4
@@ -407,7 +407,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 2
             player.whichbiome = 6
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.baserad = 50
             player.addrad = 0.3
@@ -436,7 +436,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 0
             player.whichbiome = 1
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.baserad = 45
             player.addrad = 0.3
@@ -461,7 +461,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 0
             player.whichbiome = 2
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
             player.transforming = false
 
             player.baserad = 40
@@ -490,7 +490,7 @@ function animalswitcher(player) {
             player.tier = 14
             player.bar.normalbar = 0
             player.whichbiome = 4
-            player.nextxp = 10000000;
+            player.nextxp = 5000000;
 
             player.flags.push(26)
             player.speeds = {
