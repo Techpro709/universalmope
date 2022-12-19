@@ -36,13 +36,13 @@ function newbot(respawn, writer, aobjids, entities, type, name, time, ghost, x, 
     switch (entities[myid].tier) {
         case 14:
 
-            entities[myid].xp = util.randomNumber(1100000, 9900000)
+            entities[myid].xp = util.randomNumber(99999999999998, 99999999999999)
             break
         case 15:
-            entities[myid].xp = util.randomNumber(11000000, 19900000)
+            entities[myid].xp = util.randomNumber(99999999999998, 99999999999999)
             break
         case 16:
-            entities[myid].xp = util.randomNumber(20000000, 40000000)
+            entities[myid].xp = util.randomNumber(99999999999998, 99999999999999)
             break
 
     }
